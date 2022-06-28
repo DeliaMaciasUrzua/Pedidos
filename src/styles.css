@@ -1,1 +1,107 @@
 /* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.container {
+  margin: 16px;
+  margin-top: 10px;
+
+}
+
+.div-agrega {
+  margin-left: 16px;
+  margin-bottom:-10px;
+  border-radius: 5px;
+
+}
+
+.div-agregar:hover {
+  transition: all 0.6s;
+}
+
+/* .button-agrega {
+  margin-left: 16px;
+} */
+
+.content {
+  height: calc(100vh - 98px);
+  border-radius: 50px;
+  margin: 16px;
+  margin-left: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  color: lightgray;
+}
+
+
+mat-sidenav-content {
+  height: calc(100vh - 98px);
+  /* border-radius: 20px; */
+  /* margin: 16px; */
+}
+
+
+
+/* .example-button-row {
+  display: table-cell;
+  width: 490px;
+  border-radius: 4px;
+} */
+
+
+.al-breadcrumb {
+  background: 0 0;
+  color: #666;
+  padding: 11px 0 0;
+  margin: 0;
+  float: right;
+
+}
+
+.breadcrumb-item {
+  list-style: none;
+}
+
+.body {
+  padding: 1%;
+}
+
+/* .panel {
+  background-color: #fff;
+  border: none;
+  border-radius: 5px;
+  position: relative;
+  box-shadow: 0 5px 5px 0 rgba(0,0,0,.25);
+
+} */
+
+
+a {
+  color: #2d333c;
+}
+
+a:hover {
+  color: #dab7a2;
+  -webkit-transform:scale(0.25);
+-moz-transform:scale(0.25);
+-ms-transform:scale(0.25);
+-o-transform:scale(0.25);
+transform:scale(0.25);
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.tooltip-view {
+  background: #a5b44e;
+}
+.tooltip-edit {
+  background: #1d5dbd;
+}
+.tooltip-remove {
+  background: #b71c1c;
+}
